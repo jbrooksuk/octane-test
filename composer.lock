@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "a8293ab15de9bbd6782b3953f43b2792",
+=======
+    "content-hash": "31f67ad20fd956afaa5354898abe7214",
+>>>>>>> wip
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1269,6 +1273,7 @@
         },
         {
             "name": "laravel/octane",
+<<<<<<< HEAD
             "version": "dev-fix/reload-command",
             "source": {
                 "type": "git",
@@ -1279,6 +1284,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/octane/zipball/9727086100cb1da8a34898a0bc53b48064811a07",
                 "reference": "9727086100cb1da8a34898a0bc53b48064811a07",
+=======
+            "version": "dev-feat/status-command",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/octane.git",
+                "reference": "650ae18c923aad3de7b8474b2f72e444efd7896b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/650ae18c923aad3de7b8474b2f72e444efd7896b",
+                "reference": "650ae18c923aad3de7b8474b2f72e444efd7896b",
+>>>>>>> wip
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1355,11 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
+<<<<<<< HEAD
             "time": "2021-04-14T18:20:21+00:00"
+=======
+            "time": "2021-04-16T10:09:44+00:00"
+>>>>>>> wip
         },
         {
             "name": "laravel/tinker",

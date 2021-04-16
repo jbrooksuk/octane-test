@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return 'Hello James';
+$now = now();
 
-    return view('welcome');
+Route::get('/', function () use ($now) {
+    return $now;
 });
