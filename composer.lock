@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31f67ad20fd956afaa5354898abe7214",
+    "content-hash": "d275c92d4330c1e662611616419da68e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1269,16 +1269,16 @@
         },
         {
             "name": "laravel/octane",
-            "version": "dev-feat/status-command",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "650ae18c923aad3de7b8474b2f72e444efd7896b"
+                "reference": "7de906ad095741819f4c2d16741620d1d1bc2caf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/650ae18c923aad3de7b8474b2f72e444efd7896b",
-                "reference": "650ae18c923aad3de7b8474b2f72e444efd7896b",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/7de906ad095741819f4c2d16741620d1d1bc2caf",
+                "reference": "7de906ad095741819f4c2d16741620d1d1bc2caf",
                 "shasum": ""
             },
             "require": {
@@ -1297,6 +1297,7 @@
                 "spiral/roadrunner": "^2.0",
                 "swoole/ide-helper": "^4.6"
             },
+            "default-branch": true,
             "bin": [
                 "bin/roadrunner-worker",
                 "bin/swoole-server"
@@ -1338,7 +1339,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-04-16T10:09:44+00:00"
+            "time": "2021-04-16T13:19:52+00:00"
         },
         {
             "name": "laravel/tinker",
