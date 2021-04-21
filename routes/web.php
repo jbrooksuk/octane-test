@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 $now = now();
 
-Route::get('/', fn => url('/'));
+Route::get('/', fn () => url('/'));
 
 Route::get('/now', function () use ($now) {
     return $now;
